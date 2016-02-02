@@ -8,7 +8,7 @@ my time a Carroll County Commuinty College. Most them were developed using the E
 
 ###Python
 These coding project are written in Python. There are both Python 2 and Python 3 examples.
-They were developed using IDLE and Visual Studio [Link to Python](https://github.com/dzdykes/MyPortfolio/)
+They were developed using IDLE and Visual Studio [Link to Python](https://github.com/dzdykes/MyPortfolio/tree/master/Python)
 
 ###HTML and CSS
 These projects are sample websites that were developed using HTML and CSS. There is some JavaScript
