@@ -1,0 +1,50 @@
+*Course 1 Computer Basics
+-Keywords
+  Machine: Something that uses energy to do things. Metal, Plastic and have several working parts that work together. Used as a tool to assist people
+  Computer: Type of machine that stores and deals with information in the form of numbers.
+  Compute: Using numbers to figure out a problem. 
+  Computation: The act of calculating an answer to a problem.
+  Computer Language: Organized systems of words, phrases and symbols that tell the computer what to do
+  Computer Science: The study of the mathematical and scientific asspects of how computer work.
+  Cursor: Indicates where the user is on the screen using a pointer of some kind.
+  Device: Any external piece of equipment that hooks up and works with the computer. i.e. camera printer monitor
+  Data: Information that is inputed into a computer using an input device
+  Digit: Symbol that represents a quantity
+  Digital: Made up of exact distinct parts, green, empty 35 years old etc. Digital can only be in one available state.
+  Email...
+  Technology: Application of scientific information that helps make a task easier
+  Information Technology: The study of machines that recieve store and send information. Mostly computers.
+  Wireless...
+  Network: Two or more computers that are connected to each other
+  Internet: Interconnected computer network. Millions of computer connected and sharing information.
+  Laptop, Monitor, PC, Disk
+  Read: Computer acquring information from a storage device.
+  Execute: Computers execute tasks given by user
+  Run: To tell the computer to execute a task
+  SmartPhone: Like a small computer but a phone.
+  Tablet...
+  Virtual: Describes something that does not exist in the physical world.
+  Oculus Rift: A virtual reality machine that your wear on your that lets players step inside their facorite games and virtual worlds.
+  Software: Set of instructions that tells a computer what to do. 
+  Hardware: Physical componets of a computer.
+  Microsoft...
+  Program: A sequence of instruction written to make the computer carry out a specific task.
+  Operating System: A major part of the computer that is a set of instructions that helps the user carry out different tasks
+  Windows: OS created by microsoft and one of the first with a mouse click option and to display graphics.
+  FLV: Flash video
+  Boot: To start up the computer. "Boot up". Short for 'bootstrapping' which means to start a self sustaing process that is supposed to proceed without external input.
+  Memory: A physical device used to store information on a computer.
+  ROM: "Read only memory" Memory stored on the computer that is not to be altered or changed. The sequence of steps to boot up your computer is stored in ROM
+  Equation: when showing that two or more things are the same using numbers.
+  Hard Copy: something that you can physically store in your hands.
+  Hardware: Are the physical components of a computer.
+  Icon: A picture your can click on with your mouse to open a program on your computer.
+  Linux: A free operating system created in 1991. Linux in for more tech savvy folk.
+  Programming Language: A programming language is used to write a program. 
+  Soft Copy: Something that is stored on a computer and can viewed on the computer as opped to physical "hard copy".
+  .(Dot): Used to seperate two different types of things.
+  World Wide Web (www): Web for short. A web is a bunch of things that are attached. The World Wide Web is a huge collection of digital "pages" that you can look at on your computer. The Internet and the World Wide Web are NOT the same thing. The Internet is the hardware - the interconnected computers. The Web is the data accessible over that network - the part of the Internet involved with delivering content as these digital "pages".
+  These pages are usually collected together as a web "site" - a set of digital pages that usually have related content. These "sites" are given a name; this name is commonly thought of as a "location" in the World Wide Web. For example, there might be a collection of pages related to the scientific study of turtles, and it could be given the name "turtlestudy".
+  When looking up something on the web, the exact location you want to go is preceded by www. When you type www.nameofthing, you are telling the computer where to look (www = the world wide web) and then putting a period to say that the next thing you are writing is the name of the place you want to go on the internet.
+  
+  
