@@ -83,7 +83,8 @@ class Window(wx.Frame):
 
     def __init__(self, title):
         wx.Frame.__init__(self, None, title=title, size =(600,400))
-
+        icon = wx.Icon('icon-arrow.png')
+        self.SetIcon(icon)
         self.Center()
         self.panel = wx.Panel(self)
         self.panel.SetBackgroundColour('#99D9EA')
