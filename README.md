@@ -4,7 +4,7 @@ A portfolio of coding projects.
 ###Java
 These coding projects are written in Java. Some of the these projects are class exercise from
 my time a Carroll County Commuinty College. Most them were developed using the Eclipse IDE.
-[Link to Java](https://github.com/dzdykes/MyPortfolio/)
+[Link to Java](https://github.com/dzdykes/MyPortfolio/tree/master/Java)
 
 ###Python
 These coding project are written in Python. There are both Python 2 and Python 3 examples.
