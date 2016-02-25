@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Interval</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script type="text/javascript" language="javascript">
+        var intTimer = 0;
+
+        function startInterval()
+        { 
+            intTimer = self.setInterval("showSlides()", 3000);
+        }
+                    
+        function stopInterval()
+        {
+            intTimer = self.clearInterval(intTimer);
+        }
+
+        function showSlides() {
+            var randNum = new Number();
+            randNum = Math.floor(Math.random() * 12 + 1);
+            document.getElementById("slideImage").src = "images/image" + randNum + ".jpg";
+            document.getElementById("numberBox").value = randNum;
+            document.getElementById("fileBox").value = "image" + randNum + ".jpg";
+        }
+    </script>
+</head>
+<body>
+    <div id="DivWrapper">
+        <header class="pageHeader">
+            <br />
+            <p>
+                Lab 9. Javascript Part 2.<br />
+                Random Slideshow
+            </p>
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home</a></li>
+                <li><a href="alerts.html">Alerts</a></li>
+                <li><a href="windows.html">Windows</a></li>
+                <li><a href="Timeout.html">Timeout</a></li>
+                <li class="selected"><a href="Interval.html">Interval</a></li>
+            </ul>
+        </nav>
+        <section class="mainSection">
+            <form id="formInterval" method="post" action="interval.html">
+              <article class="leftArticle">
+                  <header class="articleHeading">
+                      Random Slideshow
+                  </header>
+                  <table>
+                      <tr>
+                          <td colspan="2">
+                              <input type="button" onclick="startInterval()" value="Click to Begin Slideshow" />
+                          </td>
+                      </tr>
+                      <tr>
+                          <td colspan="2">
+                              <input type="button" onclick="stopInterval()" value="Stop Slideshow" />
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Random Number:
+                          </td>
+                          <td>
+                              <input type="text" id="numberBox" />
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              Image File Name:
+                          </td>
+                          <td>
+                              <input type="text" id="fileBox" />
+                          </td>
+                      </tr>
+                  </table>
+              </article>
+            </form>
+            <article class="rightArticle">
+                <img id="slideImage" />
+            </article>
+</section>
+        <footer class="pageFooter">
+            CIS 137 Lab 9. Dylan Dykes.
+        </footer>
+    </div>
+</body>
+</html>

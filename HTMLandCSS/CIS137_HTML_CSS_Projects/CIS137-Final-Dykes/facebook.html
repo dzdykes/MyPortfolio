@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/print.css" rel="stylesheet" media="print" />
+    <script src="scripts/script.js"></script>
+    <title>facebook</title>
+</head>
+<!--Fackbook Page-->
+<body onload="startInterval(), showAds()">
+    <div id="fb-root"></div>
+    <script>
+    (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div id="divWrapper">
+        <header class="pageHeader">
+            <p></p>
+            <p></p>
+            &nbsp;Confection &nbsp;&nbsp;&nbsp;Perfection
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home&nbsp;&nbsp;</a></li>
+                <li><a href="fondant.html">Fondant&nbsp;&nbsp;</a></li>
+                <li><a href="buttercream.html">Buttercream&nbsp;&nbsp;</a></li>
+                <li><a href="events.html">Events&nbsp;&nbsp;</a></li>
+                <li><a href="quote.html">Quote&nbsp;&nbsp;</a></li>
+                <li class="selected"><a href="facebook.html">Facebook&nbsp;&nbsp;</a></li>
+            </ul>
+        </nav>
+        <header class="hiddenHeader"></header>
+        <p></p>
+        <section>
+            <img onclick="showThankYouWindow()" onmouseover="stopInterval()" onmouseout="startInterval()" id="leftAdBanner" src="" />
+        </section>
+        <section>
+            <img onclick="showThankYouWindow()" onmouseover="stopInterval()" onmouseout="startInterval()" id="rightAdBanner">
+        </section>
+        <section class="mainSection">
+            <header class="sectionHeading">
+                Find Us on FaceBook!!
+            </header>
+            <p></p>    
+            <p></p>
+            <article class="fbArticle"></article>
+                <div class="fb-page"
+                     data-href="https://www.facebook.com/AmandasConfectionPerfections"
+                     data-small-header="false"
+                     data-adapt-container-width="true"
+                     data-hide-cover="false"
+                     data-show-facepile="true"
+                     data-show-posts="true">
+                    <div class="fb-xfbml-parse-ignore">
+                        <blockquote cite="https://www.facebook.com/AmandasConfectionPerfections">
+                            <a href="https://www.facebook.com/AmandasConfectionPerfections">
+                                Amanda&#039;s Confection Perfections
+                            </a>
+                        </blockquote>
+                    </div>
+                </div>
+        </section>
+        <footer class="pageFooter">
+            <p></p>
+            CIS137-Final Project. Dylan Dykes<br />
+            Confection Perfection. 5555 Something Rd. Something, MD.
+        </footer>
+    </div>
+    
+</body>
+</html>

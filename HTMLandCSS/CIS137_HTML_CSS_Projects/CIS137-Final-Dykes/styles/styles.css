@@ -1,0 +1,454 @@
+﻿body {
+    background-color: #ffffff;
+    font-family: 'Lucida Handwriting', 'Times New Roman', Times, serif;
+    background-image: url('../images/small/image16.jpg');
+    background-repeat: repeat;
+}
+
+#divWrapper
+{
+    width: 67%;
+    height: auto;
+    min-height: 800px;
+    border: #10062a 10px dotted;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #e8e0ae;
+}
+
+#hiddenImage
+{
+    width: 75%;
+    margin: auto;
+}
+
+.pageHeader 
+{
+    min-height: 100px;
+    border-left: 2px solid #10062a;
+    border-top: 2px solid #10062a;
+    border-radius: 20px;
+    padding: 1%;
+    font-size: 1.7em;
+    color: #10062a;
+    width: 13%;
+    position: relative;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: right;
+    background-image: url('../images/small/image15.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.hiddenHeader
+{
+    width:80%;
+    min-height: 250px;
+    border: 3px solid double #10062a;
+    background: none;
+    
+}
+
+.mainSection
+{
+    min-height: 600px;
+    background-color: #f6afaf;
+    width: 65%;
+    height: auto;
+    margin: auto;
+    border: dotted 2px black;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+
+.sectionHeading
+{
+    width: 89%;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    border-bottom: 2px double black;
+
+}
+
+.videoDiv
+{
+    background-color: #10062a;
+    width: 60%;
+    margin: auto;
+    padding: 5%;
+    align-content:center;
+    margin-top: 5%;
+    border: 2px hidden;
+    border-radius: 15px;
+}
+
+.videoDiv video
+{
+    width: 70%;
+    margin: auto;
+    border: solid #10062a 2px;
+    border-radius: 10px;
+    margin-left:15%;
+    
+}
+
+#leftAdBanner {
+    width: 12.5%;
+    position: relative;
+    float: left;
+    border: solid 2px black;
+    min-height: 600px;
+    margin: auto;
+    margin-left: 2%;
+    color: black;
+    cursor: pointer;
+}
+
+#rightAdBanner
+{
+    width: 12.5%;
+    position: relative;
+    float: right;
+    border: solid 2px black;
+    min-height: 600px;
+    margin-right: 2%;
+    color: black;
+    cursor: pointer;
+}
+
+.pageFooter
+{
+    width: 90%;
+    min-height: 75px;
+    color: white;
+    background-color: #10062a;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px hidden;
+    text-align:center;
+    margin-bottom: 2%;
+}
+
+
+.menuBar
+    {
+        width: 10%;
+        min-height: 200px;
+        background:none; 
+        color: #10062a;
+        position: relative;
+        float: right;
+        margin-right: 25%;
+        margin-top: 5%
+    }
+
+        .menuBar ul
+        {
+            width: 100%;
+            list-style: none;
+            margin: 0px;
+        }
+
+        .menuBar li
+        {
+            min-width: 10%;
+            float: left;
+            font-size: 1em;
+            padding-right: .5%;
+            border-bottom: 2px solid #10062a;
+            border-left: 2px solid #10062a;
+        }
+
+        .menuBar a
+        {
+            display: block;
+            padding: 3px 6px;
+            text-decoration: none;
+            color: #10062a;
+        }
+
+            .menuBar a:hover
+            {
+                color: #e8e0ae;
+                background-color: #10062a;
+                font-weight:bold;
+                padding: 5%;
+            }
+
+    .selected
+    {
+        background-color: #10062a;
+        font-weight: bold;
+        min-width: 100%;
+        padding: 5%;
+    }
+
+        .selected a
+        {
+            color: #e8e0ae;
+        }
+
+.leftArticle
+{
+    width: 46.5%;
+    margin: 1%;
+    position: relative;
+    float: left;
+    background-color: #f6afaf;
+    border-radius: 5px;
+    min-height:400px;
+    padding-top:2%;
+}
+
+    .leftArticle header
+    {
+        width:90%;
+        margin:auto;
+        border: double;
+        border-width: 3px;
+        font-size: 1.2em;
+        color: #10062a;
+        background-color: #f6afaf;
+        padding: 2%;
+        text-align: center;
+    }
+
+.largeArticle
+{
+    width: 86.5%;
+    margin: 2%;
+    position: relative;
+    float: left;
+    background-color: #f6afaf;
+    border-radius: 5px;
+    min-height:400px;
+    padding-top:2%;
+}
+
+.largeArticle header
+{
+    width:90%;
+    margin:auto;
+    border: double;
+    border-width: 3px;
+    font-size: 1.2em;
+    color: #10062a;
+    background-color: #f6afaf;
+    padding: 2%;
+    text-align: center;
+}
+
+.fbArticle
+{
+    width: 26.5%;
+    min-height: 50px;
+    position:relative;
+    float: left;
+}
+
+.leftMenu
+{
+    width:90%;
+    margin: auto;
+    margin-top: 3%;
+    min-height: 25px;
+    background-color: #10062a;
+    color: #ffffff;
+    position: relative;
+    padding-top: 3%;
+    border-radius: 5%;
+    border: hidden;
+}
+    
+    .leftMenu ul
+    {    
+        margin-top: 2%;
+        width: 90%;
+        list-style: none;
+        margin: 0px;
+        border-radius: 5%;
+        border: hidden;
+    }
+
+    .leftMenu li
+    {
+        border-left: 1px #f6afaf solid;
+        border-bottom: 1px #f6afaf solid;
+        width: 25%;
+        float: left;
+    }
+
+    .leftMenu a
+    {
+        text-decoration:none;
+        font-size: 1.2em;
+        color: #ffffff;
+        display: block;
+    }
+
+    .leftMenu a:hover
+    {
+        text-decoration: none;
+        color: #10062a;
+        font-weight: bold;
+    }
+    
+
+    .leftMenu li:hover
+    {
+        background-color: #f6afaf;
+        color: #10062a;
+    }
+
+    .leftSelected
+    {
+        background-color: #f6afaf;
+    }
+    
+    .leftSelected a
+    {
+        color: #10062a;
+        font-weight: bold;
+    }    
+
+.mainSectionImage
+{
+    width: 30%;
+    margin: 5%;
+    margin-left: 25%;
+    border: double;
+    border-width: 6px;
+    border-color: #10062a;
+    position:relative;
+    padding: 5%; 
+    background: #e8e0ae;
+}
+
+.galleryTable
+{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    border: double;
+    border-width: 6px;
+    border-radius: 2%;
+}
+
+.galleryTable td
+{
+    border: solid;
+    border-width: 1px;
+    border-radius: 2%;
+}
+
+.galleryTable img
+{
+    width: 75%;
+    margin: auto;
+    padding: 2%;
+}
+
+.priceTable
+{
+    border: double;
+    border-width: 6px;
+    border-radius: 2%;
+    font-family:serif;
+    font-size: 1.2em;
+}
+
+.priceTable th
+{
+    width:20%;
+    background-color: #ffffff;
+    color: #c96d68;
+    border-radius: 25%;
+}
+
+.priceTable td
+{
+    border: 1px solid;
+    text-align: center;
+    font-size: .8em;
+    border-top: hidden;
+    border-left: hidden;
+    border-radius: 40%;
+}
+
+.quoteTable
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    min-height:300px;
+    border: 6px double;
+    border-radius: 15%;
+    padding: 3%;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif
+}
+
+    .quoteTable td
+    {
+        border: 1px solid black;
+        align-content: center;
+        text-align: left;
+        padding-left: 5%;
+        border-top: hidden;
+        border-right: hidden;
+        border-radius: 30%;
+    }
+
+    .quoteTable th
+    {
+        background-color: #ffffff;
+        color: #c96d68;
+        vertical-align: middle;
+        border-radius: 35%;
+        border: solid 2px black;
+        border-top: hidden;
+        border-right: hidden;
+    }
+
+.eventsTable
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border: 6px double black;
+    border-radius: 15%;
+    min-height: 300px;
+    font-family:'Times New Roman', Times, serif;
+}
+    
+    .eventsTable a
+    {
+        font-size: .4em;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .eventsTable a:hover
+    {
+        background-color:#10062a;
+    }
+
+    .eventsTable th
+    {
+        font-size: 3em;
+        text-align: left;
+        padding-left: 10%;
+        color: #10062a
+    }
+
+    .eventsTable td
+    {
+        text-align: left;
+        padding-left: 15%;
+        min-width:25%;
+        color: #10062a
+    }
+

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/print.css" rel="stylesheet" media="print"/>
+    <script src="scripts/script.js"></script>
+    <title>quote</title>
+</head>
+<!--Quote Page-->
+<body>
+    <div id="divWrapper">
+        <header class="pageHeader">
+            <p></p>
+            <p></p>
+            &nbsp;Confection &nbsp;&nbsp;&nbsp;Perfection
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home&nbsp;&nbsp;</a></li>
+                <li><a href="fondant.html">Fondant&nbsp;&nbsp;</a></li>
+                <li><a href="buttercream.html">Buttercream&nbsp;&nbsp;</a></li>
+                <li><a href="events.html">Events&nbsp;&nbsp;</a></li>
+                <li class="selected"><a href="quote.html">Quote&nbsp;&nbsp;</a></li>
+                <li><a href="facebook.html">Facebook&nbsp;&nbsp;</a></li>
+            </ul>
+        </nav>
+        <header class="hiddenHeader"></header>
+        <section class="mainSection">
+            <header class="sectionHeading">
+                Get Quote for Your Cake!
+            </header>
+            <form id="formQuote" method="post" actoin="quote.html">
+                <table class="quoteTable">
+                    <tr>
+                        <th>
+                            Icing:
+                        </th>
+                        <td>
+                            <input type="radio" name="icing" id="Buttercream"/>Buttercream<br />
+                            <input type="radio" name="icing" id="Fondant"/>Fondant
+                        </td>
+                        <td rowspan="5">
+                            <em>Quote Total:</em><br />
+                            <output type="text" name="quote" id="quoteTotal" value="" width="5"></output>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Licensed Art: 
+                        </th>
+                        <td>
+                            <input type="radio" name="art" id="yes" />Yes<br />
+                            <input type="radio" name="art" id="no" checked />No
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Cake Style:
+                        </th>
+                        <td>
+                            <input type="radio" name="style" id="sheet" checked />Sheet<br />
+                            <input type="radio" name="style" id="round" />Round Tiered
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            People to Serve:
+                        </th>
+                        <td>
+                            <select id="colorSelect" name="favColor">
+                                <option id="p1">
+                                    10-15
+                                </option>
+                                <option id="p2">
+                                    15-25
+                                </option>
+                                <option id="p3">
+                                    25-40
+                                </option>
+                                <option id="p4">
+                                    40-60
+                                </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" value="Get Quote" onclick="getQuote()" />
+                        </td>
+                    </tr>
+                    
+                </table>
+            </form>
+</section>
+    </div>
+    <footer class="pageFooter">
+        <p></p>
+        CIS137-Final Project. Dylan Dykes<br />
+        Confection Perfection. 5555 Something Rd. Something, MD.
+    </footer>
+</body>
+</html>

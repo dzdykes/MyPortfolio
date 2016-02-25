@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>timeout</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script type="text/javascript" language="javascript">
+        var intTimer = 0;
+        function showWelcomeWindow() {
+            window.open("Welcome.html", "Welcome", 
+            "height= 250, width= 500, screenX= 600, screenY=300, scrollbar=0")
+        }
+
+        function startTimer() {
+            intTimer = self.setTimeout("showWelcomeWindow()", 6000)
+        }
+
+        function startImageTimer() {
+            intTimer = self.setTimeout ("showImage()", 4000 )
+        }
+    
+        function showImage() {
+            document.getElementById("timeoutImage").src = "images/image12.jpg";
+        }
+    </script>
+
+</head>
+<body onload="startTimer()">
+    <div id="DivWrapper">
+        <header class="pageHeader">
+            <br />
+            <p>
+                Lab 9. Javascript Part 2.<br />
+                Timeout
+            </p>
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home</a></li>
+                <li><a href="alerts.html">Alerts</a></li>
+                <li><a href="windows.html">Windows</a></li>
+                <li class="selected"><a href="timeout.html">Timeout</a></li>
+                <li><a href="interval.html">Interval</a></li>
+            </ul>
+        </nav>
+        <section class="mainSection">
+            <form id="formTimeout" method="post" action="timeout.html">
+                <article class="leftArticle">
+                    <header class="articleHeading">
+                        Wait 6 seconds for window to appear
+                    </header>
+                    <p>
+                        <input type="button" id="startTimer" value="Wait 4 seconds for image" onclick="startImageTimer()" />
+                    </p>
+                </article>
+            </form>
+            <article class="leftArticle">
+                <img id="timeoutImage"/>
+            </article>
+        </section>
+        <footer class="pageFooter">
+            CIS 137 Lab 9. Dylan Dykes.
+        </footer>
+    </div>
+</body>
+</html>

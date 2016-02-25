@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>click</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script>
+        function showImage(filename)
+        {
+            document.getElementById("TeamImg").style.visibility = "visible";
+            document.getElementById("TeamImg").src = "images/" + filename;
+        }
+        function hideImage()
+        {
+            document.getElementById("TeamImg").style.visibility = "hidden";
+        }
+        function mDown()
+        {
+            document.getElementById("downDiv").style.marginTop = "100px";
+            document.getElementById("downDiv").style.backgroundColor = "yellow";
+            document.getElementById("downDiv").style.color = "black";
+            document.getElementById("upDiv").style.backgroundColor = "black";
+            document.getElementById("upDiv").style.color = "yellow";
+        }
+        function mUp()
+        {
+            document.getElementById("downDiv").style.marginTop = "0px";
+            document.getElementById("upDiv").style.border = "1px white dashed";
+        }
+
+    </script>
+</head>
+<body>
+    <div id="DivWrapper">
+        <header class="pageHeader">
+            <br />
+            <p>
+                Lab 8. Javascript Part 1.<br />
+                Events - Mouse Click Events
+            </p>
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home</a></li>
+                <li><a href="move.html">Move</a></li>
+                <li class="selected"><a href="click.html">Click</a></li>
+                <li><a href="drag.html">Drag</a></li>
+            </ul>
+        </nav>
+        <section class="mainSection">
+            <article class="leftArticle">
+                <header class="articleHeading">
+                    Mouse Click Events
+                </header>
+                <form id="formClick" method="post" action="click.html">
+                    <div id="balDiv" onclick="showImage('bal.jpg')">
+                        <p>
+                            Orioles
+                        </p>
+                    </div>
+                    <div id="nyyDiv" onclick="showImage('nyy.jpg')">
+                        <p>
+                            Yankees
+                        </p>
+                    </div>
+                    <div id="torDiv" onclick="showImage('tor.jpg')">
+                        <p>
+                            Blue Jays
+                        </p>
+                    </div>
+                    <div id="hideDiv" onclick="hideImage()">
+                        <p>
+                            Hide Image
+                        </p>
+                    </div>
+                    <div id="downDiv" onclick="mDown()">
+                        <p>
+                            Mouse Down
+                        </p>
+                    </div>
+                    <div id="upDiv" onclick="mUp()">
+                        <p>
+                            Mouse Up
+                        </p>
+                    </div>
+                </form>
+            </article>
+            <article class="rightArticle">
+                <img id="TeamImg" src="" style="visibility:hidden;"/>
+            </article>
+        </section>
+        <footer class="pageFooter">
+            CIS 137 Lab 8. Dylan Dykes.
+        </footer>
+    </div>
+</body>
+</html>

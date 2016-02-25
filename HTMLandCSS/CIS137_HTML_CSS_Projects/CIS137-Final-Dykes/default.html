@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <link href="styles/print.css" rel="stylesheet" media="print"/>
+    <script type="text/javascript" src="scripts/script.js">   
+    </script>
+    <title>default</title>
+</head>
+<!--Home Page-->
+<body onload="startInterval(), showAds()">
+    <div id="divWrapper">
+        <header class="pageHeader">
+            <p></p>
+            <p></p>
+            &nbsp;Confection &nbsp;&nbsp;&nbsp;Perfection
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li class="selected"><a href="default.html">Home&nbsp;&nbsp;</a></li>
+                <li><a href="fondant.html">Fondant&nbsp;&nbsp;</a></li>
+                <li><a href="buttercream.html">Buttercream&nbsp;&nbsp;</a></li>
+                <li><a href="events.html">Events&nbsp;&nbsp;</a></li>
+                <li><a href="quote.html">Quote&nbsp;&nbsp;</a></li>
+                <li><a href="facebook.html">Facebook&nbsp;&nbsp;</a></li>
+            </ul>
+        </nav>
+        <header class="hiddenHeader"></header>
+        <p></p>
+            <section>
+                <img onclick="showThankYouWindow()" onmouseover="stopInterval()" onmouseout="startInterval()" id="leftAdBanner" src="">
+            </section>
+            <section>
+                <img onclick="showThankYouWindow()" onmouseover="stopInterval()" onmouseout="startInterval()" id="rightAdBanner">
+            </section> 
+        <section class="mainSection">
+            <header class="sectionHeading">
+                Homemade cakes for any Occasion!
+            </header>
+            <div class="videoDiv">
+                <video controls="controls" autoplay muted>
+                    <source src="media/CIS137Final.mp4" type="video/mp4" />
+                    <source src="media/CIS137Final.oggtheora.ogv" type="video/ogg" />
+                    <source src="media/CIS137Final.webmsd.webm" type="video/webm" />
+                </video>
+            </div>
+        </section>
+        
+        <footer class="pageFooter">
+            <p></p>
+            CIS137-Final Project. Dylan Dykes<br />
+            Confection Perfection. 5555 Something Rd. Something, MD.
+       </footer>
+    </div>
+    
+</body>
+</html>

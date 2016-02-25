@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>drag</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script>
+        function dragStart(event) {
+            event.dataTransfer.setData("Text", event.target.id);
+        }
+
+        function dragging(event) {
+            document.getElementById("message").innerHTML = "The image element is being dragged";
+        }
+
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            var data = event.dataTransfer.getData("Text");
+            event.target.appendChild(document.getElementById(data));
+            document.getElementById("message").innerHTML = "The image element was dropped";
+        }
+    </script></head>
+<body>
+    <div id="DivWrapper">
+        <header class="pageHeader">
+            <br />
+            <p>
+                Lab 8. Javascript Part 1.<br />
+            </p>
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home</a></li>
+                <li><a href="move.html">Move</a></li>
+                <li><a href="click.html">Click</a></li>
+                <li class="selected"><a href="drag.html">Drag</a></li>
+            </ul>
+        </nav>
+        <section class="mainSection">
+            <article class="leftArticle" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <header class="articleHeading">
+                    Drag Image to Cart
+                </header>
+                <img id="dragImg" src="images/bal.jpg" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" />
+            </article>
+            <article class="rightArticle" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <header class="articleHeading">
+                    Drop Image in Cart
+                </header>
+            </article>
+            <p id="message"></p>
+        </section>
+        <footer class="pageFooter">
+            CIS 137 Lab 8. Dylan Dykes.
+        </footer>
+    </div>
+</body>
+</html>

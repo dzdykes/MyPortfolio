@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>alerts</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function showWelcomeMessage() {
+            window.alert("Welcome to our new website!")
+        }
+        function showSoup() {
+            window.alert("The soup of the day is Tomato!")
+        }
+    </script>
+</head>
+<body onload="showWelcomeMessage()">
+    <div id="DivWrapper" onload="showWelcomeMessage()">
+        <header class="pageHeader">
+            <br />
+            <p>
+                Lab 9. Javascript Part 2.<br />
+                Pop up Alerts
+            </p>
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home</a></li>
+                <li class="selected"><a href="alerts.html">Alerts</a></li>
+                <li><a href="windows.html">Windows</a></li>
+                <li><a href="Timeout.html">Timeout</a></li>
+                <li><a href="Interval.html">Interval</a></li>
+            </ul>
+        </nav>
+        <section class="mainSection">
+            <form id="formAlerts" method="post" action="alerts.html">
+                <article class="bigArticle">
+                    <header class="articleHeading">
+                        Pop-Up Message Boxes
+                    </header>
+                    <button onclick="showSoup()">Show the soup of the day!</button>
+                </article>
+            </form>
+        </section>
+        <footer class="pageFooter">
+            CIS 137 Lab 9. Dylan Dykes.
+        </footer>
+    </div>
+</body>
+</html>

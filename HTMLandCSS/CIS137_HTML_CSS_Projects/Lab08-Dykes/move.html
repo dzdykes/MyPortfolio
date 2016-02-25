@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>move</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script>
+        function showImage(filename)
+        {
+            document.getElementById("TeamImg").style.visibility = "visible";
+            document.getElementById("TeamImg").src = "images/" + filename;
+        }
+        function hideImage()
+        {
+            document.getElementById("TeamImg").style.visibility = "hidden";
+        }
+    </script>
+</head>
+<body>
+    <div id="DivWrapper">
+        <header class="pageHeader">
+            <br />
+            <p>
+                Lab 8. Javascript Part 1.<br />
+                Events - Mouse Move Events
+            </p>
+        </header>
+        <nav class="menuBar">
+            <ul>
+                <li><a href="default.html">Home</a></li>
+                <li class="selected"><a href="move.html">Move</a></li>
+                <li><a href="click.html">Click</a></li>
+                <li><a href="drag.html">Drag</a></li>
+            </ul>
+        </nav>
+        <section class="mainSection">
+            <article class="leftArticle">
+                <header class="articleHeading">
+                    Mouse Over and Mouse Out Events
+                </header>
+                <form id="formMove" method="post" actoin="move.html">
+                    <div id="balDiv" onmouseover="showImage('bal.jpg')" onmouseout="hideImage()">
+                        <p>
+                            Orioles
+                        </p>
+                    </div>
+                    <div id="nyyDiv" onmouseover="showImage('nyy.jpg')" onmouseout="hideImage()">
+                        <p>
+                            Yankees
+                        </p>
+                    </div>
+                    <div id="torDiv" onmouseover="showImage('tor.jpg')" onmouseout="hideImage()">
+                        <p>
+                            Blue Jays
+                        </p>
+                    </div>
+                </form>
+            </article>
+            <article class="rightArticle">
+                <img id="TeamImg" src="" style="visibility:collapse"/>
+            </article>
+        </section>
+        <footer class="pageFooter">
+            CIS 137 Lab 8. Dylan Dykes.
+        </footer>
+    </div>
+</body>
+</html>
