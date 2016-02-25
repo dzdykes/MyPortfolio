@@ -1,0 +1,185 @@
+﻿body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:beige;
+}
+
+#DivWrapper
+{
+    width:85%;
+    margin:auto;
+    background-color:#808080;
+    border:solid 2px black;
+}
+
+.pageHeading
+{
+    min-height:100px;
+    width:100%;
+    margin:auto;
+    background-color:#800303;
+    color:#808080;
+    font-size:2em;
+    text-align:center;
+    vertical-align:middle;
+    padding-top:5%;
+}
+
+.mainSection
+{
+    width:96%;
+    margin:auto;
+    padding:2%;
+    min-height:500px;
+    background-color:#ddbbbb;
+    position:relative;
+}
+
+.pageFooter
+{
+    min-height:50px;
+    background-color:#800303;
+    color:#808080;
+    font-size:.8em;
+    text-align:center;
+}
+
+.fullArticle
+{
+    width:96%;
+    min-height:350px;
+    margin:auto;
+    padding:2%;
+    border:2px solid #800303;
+    color:black;
+    background-color:#e6decc;
+    position:relative;
+    float:none;
+}
+
+.fullArticleHeading
+{
+    text-align:center;
+    background-color:#ddbbbb;
+    font-size:1.2em;
+}
+
+.fullArticleTable
+{
+    width:75%;
+    margin:auto;
+    margin-top:2%;
+    background-color:#e6decc;
+    padding:.5%;
+    border:2px solid black;
+}
+
+    .fullArticleTable thead
+    {
+        font-size:1.5em;
+        text-align:center;
+        font-weight:bold;
+        background-color:#ddbbbb;
+        padding:2%;
+    }
+
+    .fullArticleTable tfoot
+    {
+        font-size:.8em;
+        text-align:center;
+        background-color:#ddbbbb;
+        padding:2%;
+    }
+
+    .fullArticleColoredBox
+    {
+        background-color:#ddbbbb;
+        padding:2%;
+        font-size:1.2em;
+        text-align:right;
+        width:50%;
+    }
+
+.halfArticle
+{
+    width:45%;
+    margin:auto;
+    position:relative;
+    float:left;
+}
+
+.article40
+{
+    width:40%;
+    margin:auto;
+    position:relative;
+    float:left;
+    padding:1%;
+}
+
+.article55
+{
+    width:55%;
+    margin:auto;
+    position:relative;
+    float:left;
+    padding:1%;
+}
+
+.addButton
+{
+    min-height:30px;
+    width:20%;
+    display:block;
+}
+
+.findButton
+{
+    min-height:30px;
+    display:block;
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+.findTextbox
+{
+    min-height:30px;
+    display:block;
+    margin:auto;
+    font-size:1.2em;
+}
+
+.longTextBox
+{
+    width:85%;
+}
+
+.descriptionTextBox
+{
+    width:85%;
+    min-height:150px;
+}
+
+.listBoxLarge
+{
+    width:85%;
+    display:block;
+    min-height:250px;
+}
+
+.gvUD
+{
+    text-align:center;
+    width:85%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:1%;
+}
+
+.gvS
+{
+    text-align:center;
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:1%;
+}

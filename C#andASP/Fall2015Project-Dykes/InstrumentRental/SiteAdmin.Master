@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.master.cs" Inherits="InstrumentRental.SiteAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin</title>
+    <link href="css/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formSiteAdmin" runat="server">
+    <div id="DivWrapper">
+        <nav class="loginNav">
+            <article class="mainMenu">
+                <asp:Menu ID="Menu" runat="server" BackColor="white"  
+                    DynamicHorizontalOffset="2" 
+                    Font-Names="Verdana" 
+                    Font-Size="1em" ForeColor="#666666" 
+                    Orientation="Horizontal" 
+                    RenderingMode="Table" 
+                    StaticEnableDefaultPopOutImage="False" 
+                    StaticSubMenuIndent="10px" 
+                    Width="15%">
+                    <DynamicHoverStyle BackColor="white" ForeColor="#650707" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" BorderStyle="Solid" />
+                    <DynamicSelectedStyle BackColor="#1C5E55" />
+                    <Items>
+                        <asp:MenuItem Text=" | Menu" Value="Menu" ImageUrl="~/images/icons/menuIcon.gif">
+                            <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/DefaultAdmin.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Instruments" Value="Instruments">
+                                <asp:MenuItem NavigateUrl="AdminAddInstrument.aspx" Text="Add Instrument" Value="Add Instrument"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="AdminUpdateInstrument.aspx" Text="Update/Delete" Value="Update/Delete"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Update/Delete Renter" Value="Update/Delete Renter" NavigateUrl="~/AdminUpdateRenter.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/AdminUpdateRental.aspx" Text="Update/Delete Rental" Value="Update/Delete Rental"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="White" />
+                </asp:Menu>
+            </article>
+        </nav>
+        <header class="publicHeader">
+            BandFly Administrator Page
+            <br />
+        </header>
+        <section class="adminSection">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer class="publicFooter">
+            CIS-232 Semester Project - Dylan Dykes
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{373EBDF9-D0AF-4476-92EE-A6CAA06C3AFE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InstrumentRental</RootNamespace>
+    <AssemblyName>InstrumentRental</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminAddInstrument.aspx" />
+    <Content Include="AdminUpdateRental.aspx" />
+    <Content Include="AdminUpdateRenter.aspx" />
+    <Content Include="ConfirmPage.aspx" />
+    <Content Include="css\Styles.css" />
+    <Content Include="DefaultAdmin.aspx" />
+    <Content Include="DefaultPublic.aspx" />
+    <Content Include="images\banners\banner1.jpg" />
+    <Content Include="images\banners\banner2.jpg" />
+    <Content Include="images\banners\banner3.jpg" />
+    <Content Include="images\banners\banner4.jpg" />
+    <Content Include="images\banners\banner5.jpg" />
+    <Content Include="images\icons\menuIcon.gif" />
+    <Content Include="images\icons\signInIcon.gif" />
+    <Content Include="images\icons\signInIcon1.gif" />
+    <Content Include="images\icons\signOutIcon1.gif" />
+    <Content Include="images\icons\tparticlebg.gif" />
+    <Content Include="images\icons\whitebg.png" />
+    <Content Include="PublicBrowseInstruments.aspx" />
+    <Content Include="PublicCheckRental.aspx" />
+    <Content Include="RentInstrument.aspx" />
+    <Content Include="SitePublic.Master" />
+    <Content Include="SiteAdmin.Master" />
+    <Content Include="XMLBannerAds.xml" />
+    <Content Include="XMLInstrument.xml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\BandRental.accdb" />
+    <Content Include="images\icons\sax.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="AdminUpdateInstrument.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminAddInstrument.aspx.cs">
+      <DependentUpon>AdminAddInstrument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAddInstrument.aspx.designer.cs">
+      <DependentUpon>AdminAddInstrument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateRental.aspx.cs">
+      <DependentUpon>AdminUpdateRental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateRental.aspx.designer.cs">
+      <DependentUpon>AdminUpdateRental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateRenter.aspx.cs">
+      <DependentUpon>AdminUpdateRenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateRenter.aspx.designer.cs">
+      <DependentUpon>AdminUpdateRenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmPage.aspx.cs">
+      <DependentUpon>ConfirmPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmPage.aspx.designer.cs">
+      <DependentUpon>ConfirmPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultAdmin.aspx.cs">
+      <DependentUpon>DefaultAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultAdmin.aspx.designer.cs">
+      <DependentUpon>DefaultAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultPublic.aspx.cs">
+      <DependentUpon>DefaultPublic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DefaultPublic.aspx.designer.cs">
+      <DependentUpon>DefaultPublic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicBrowseInstruments.aspx.cs">
+      <DependentUpon>PublicBrowseInstruments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicBrowseInstruments.aspx.designer.cs">
+      <DependentUpon>PublicBrowseInstruments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PublicCheckRental.aspx.cs">
+      <DependentUpon>PublicCheckRental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicCheckRental.aspx.designer.cs">
+      <DependentUpon>PublicCheckRental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RentInstrument.aspx.cs">
+      <DependentUpon>RentInstrument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RentInstrument.aspx.designer.cs">
+      <DependentUpon>RentInstrument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteAdmin.Master.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteAdmin.Master.designer.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SitePublic.Master.cs">
+      <DependentUpon>SitePublic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePublic.Master.designer.cs">
+      <DependentUpon>SitePublic.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateInstrument.aspx.cs">
+      <DependentUpon>AdminUpdateInstrument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateInstrument.aspx.designer.cs">
+      <DependentUpon>AdminUpdateInstrument.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\instruments\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52225</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52225/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

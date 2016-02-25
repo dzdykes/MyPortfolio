@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>images/banners/banner1.jpg</ImageUrl>
+    <NavigateUrl>http://www.newegg.com</NavigateUrl>
+    <AlternateText>New Egg</AlternateText>
+    <Caption>New Egg</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/banners/banner2.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.com</NavigateUrl>
+    <AlternateText>Google</AlternateText>
+    <Caption>Google</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/banners/banner3.jpg</ImageUrl>
+    <NavigateUrl>http://www.yahoo.com</NavigateUrl>
+    <AlternateText>Yahoo</AlternateText>
+    <Caption>Yahoo</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/banners/banner4.jpg</ImageUrl>
+    <NavigateUrl>http://www.springer.com</NavigateUrl>
+    <AlternateText>Springer</AlternateText>
+    <Caption>Spring</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>images/banners/banner5.jpg</ImageUrl>
+    <NavigateUrl>http://www.mlb.com</NavigateUrl>
+    <AlternateText>MLB</AlternateText>
+    <Caption>MLB</Caption>
+  </Ad>
+</Advertisements>

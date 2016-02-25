@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SitePublic.master.cs" Inherits="InstrumentRental.SitePublic" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>BandFly Rentals</title>
+    <link href="css/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formSitePublic" runat="server">
+    <div id="DivWrapper">
+        <asp:AdRotator ID="ARBanners" runat="server" CssClass="adRotator"
+            DataSourceID="XMLBannerAds"/>
+        <nav class="loginNav">
+            <article class="mainMenu">
+                <asp:Menu ID="Menu" runat="server" BackColor="white"  
+                    DynamicHorizontalOffset="2" 
+                    Font-Names="Verdana" 
+                    Font-Size="1em" ForeColor="#666666" 
+                    Orientation="Horizontal" 
+                    RenderingMode="Table" 
+                    StaticEnableDefaultPopOutImage="False" 
+                    StaticSubMenuIndent="10px" 
+                    Width="15%">
+                    <DynamicHoverStyle BackColor="white" ForeColor="#650707" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" BorderStyle="Solid" />
+                    <DynamicSelectedStyle BackColor="#1C5E55" />
+                    <Items>
+                        <asp:MenuItem Text=" | Menu" Value="Menu" ImageUrl="~/images/icons/menuIcon.gif">
+                            <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/DefaultPublic.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Browse Instruments" Value="Browse Instruments" NavigateUrl="PublicBrowseInstruments.aspx"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="PublicCheckRental.aspx" Text="Rental Status" Value="Rental Status"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="White" />
+                </asp:Menu>
+            </article>
+            <asp:Panel ID="PanelSignIn" runat="server" CssClass="signInMenu">
+                <asp:Menu ID="MenuSignIn" runat="server" CssClass="signIn" 
+                    Orientation="Horizontal" 
+                    BackColor="White" 
+                    DynamicHorizontalOffset="2" 
+                    Font-Names="Verdana" Font-Size="1em" ForeColor="#666666" StaticSubMenuIndent="10px" Width="19.5%" OnMenuItemClick="MenuSignIn_MenuItemClick">
+                    <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" />
+                    <DynamicSelectedStyle BackColor="#1C5E55" />
+                    <Items>
+                        <asp:MenuItem Text=" | Sign In" Value="Sign In" ImageUrl="~/images/icons/signInIcon.gif">
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="White" />
+                </asp:Menu>
+            </asp:Panel>
+            <asp:Panel ID="PanelSignOut" runat="server" Visible="false" CssClass="signInMenu">
+                <asp:Menu ID="MenuSignOut" runat="server" CssClass="signIn" 
+                    Orientation="Horizontal" 
+                    BackColor="White" 
+                    DynamicHorizontalOffset="2" 
+                    Font-Names="Verdana" Font-Size="1em" ForeColor="#666666" StaticSubMenuIndent="10px" Width="19.5%">
+                    <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" />
+                    <DynamicSelectedStyle BackColor="#1C5E55" />
+                    <Items>
+                        <asp:MenuItem Text=" | Sign Out" Value="Sign Out" ImageUrl="~/images/icons/signInIcon.gif" NavigateUrl="~/Login.aspx?NU=86">
+                        </asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="White" />
+                </asp:Menu>
+            </asp:Panel>
+        </nav>
+        <header class="publicHeader">
+            BandFly Rentals
+            <br />
+            <span style="font-size:.5em">
+                <asp:Label ID="LabelHeaderMessage" runat="server" Text="Fast and Easy Instrument Rentals."></asp:Label>
+            </span>
+        </header>
+        <section class="publicSection">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer class="publicFooter">
+            CIS-232 Semester Project - Dylan Dykes
+        </footer>
+    </div>
+    <asp:XmlDataSource ID="XMLBannerAds" runat="server"
+        DataFile="~/XMLBannerAds.xml"></asp:XmlDataSource>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\Dylan\Desktop\Lab09-Dykes\Lab09-Dykes\Lab09-Dykes\bin\Lab09-Dykes.dll.config
+C:\Users\Dylan\Desktop\Lab09-Dykes\Lab09-Dykes\Lab09-Dykes\bin\Lab09-Dykes.dll
+C:\Users\Dylan\Desktop\Lab09-Dykes\Lab09-Dykes\Lab09-Dykes\bin\Lab09-Dykes.pdb
+C:\Users\Dylan\Desktop\Lab09-Dykes\Lab09-Dykes\Lab09-Dykes\obj\Debug\Lab09-Dykes.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Desktop\Lab09-Dykes\Lab09-Dykes\Lab09-Dykes\obj\Debug\Lab09-Dykes.dll
+C:\Users\Dylan\Desktop\Lab09-Dykes\Lab09-Dykes\Lab09-Dykes\obj\Debug\Lab09-Dykes.pdb

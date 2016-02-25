@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteAdmin.master.cs" Inherits="Lab10_Dykes.SiteAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Site Admin</title>
+    <link href="css/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formSiteAdmin" runat="server">
+    <div id="DivWrapper">
+        <header class="pageHeading">
+            Lab 10 - Uploading Files
+        </header>
+        <nav>
+            <asp:Menu ID="MenuMain" runat="server" BackColor="Gray" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1em" ForeColor="#990000" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False" StaticSubMenuIndent="10px">
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#FFFBD6" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <Items>
+                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="DefaultAdmin.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Instructors" Value="Instructors">
+                        <asp:MenuItem NavigateUrl="InstructorAdd.aspx" Text="Add Instructor" Value="Add Instructor"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="InstructorList.aspx" Text="List Instructors" Value="List Instructors"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="InstructorPhotoUpdate.aspx" Text="Update Photo" Value="Update Photo"></asp:MenuItem>
+                    </asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="#FFCC66" />
+            </asp:Menu>
+        </nav>
+        <section class="mainSection">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+        </section>
+        <footer class="pageFooter">
+            CIS-237. Lab 10. Uploading Files. Fall-2015. Dylan Dykes
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

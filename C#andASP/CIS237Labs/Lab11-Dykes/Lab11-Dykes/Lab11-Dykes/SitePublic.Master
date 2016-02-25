@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SitePublic.master.cs" Inherits="Lab11_Dykes.SitePublic" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Lab-11 = Validation</title>
+    <link href="css/Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="formSitePublic" runat="server">
+    <div id="DivWrapper">
+        <header class="pageHeading">
+            Lab 11 - Validation
+            <br />
+            <asp:Label ID="LabelSystemMessage" runat="server"></asp:Label>
+            <br />
+            <asp:Label ID="LabelSessionMessage" runat="server"></asp:Label>
+        </header>
+        <nav>
+            <asp:Menu ID="MenuMain" runat="server" BackColor="Gray" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1em" ForeColor="#990000" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False" StaticSubMenuIndent="10px">
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#FFFBD6" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <Items>
+                    <asp:MenuItem NavigateUrl="Default.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem Text="| Create Account" Value="Create Account" NavigateUrl="CreateAccount.aspx"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="#FFCC66" />
+            </asp:Menu>
+        </nav>
+
+        <section class="mainSection">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer class="pageFooter">
+            CIS 237 - Lab 11 Validation - Dylan Dykes
+        </footer>
+    </div>
+    </form>
+</body>
+</html>

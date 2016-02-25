@@ -1,0 +1,426 @@
+﻿body {
+    background-color:#bda595;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#DivWrapper
+{
+    background-color:#bda595;
+    width:100%;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    min-height:1000px;
+}
+
+.mainMenu
+{
+    color:black;
+    background-color:white;
+    width:auto;
+    position:relative;
+    float:left;
+}
+
+.loginHeader
+{
+    background-color:#c9ebae;
+    color:#650707;
+    width:100%;
+    margin:auto;
+    font-size:3em;
+    font-weight:bold;
+    text-align:center;
+    padding-top:1%;
+}
+
+.signInMenu
+{
+    position:relative;
+    background-color:white;
+    float:right;
+    width:auto;
+    padding-left:5.24%;
+    min-height:44px;
+}
+
+.loginNav
+{
+    width:100%;
+    background-color:white;
+    min-height:45px;
+    opacity:.6;
+}
+
+    .loginNav:hover
+    {
+        opacity:1;
+    }
+
+.loginSection {
+    width: 100%;
+    margin: auto;
+    background-image: repeating-linear-gradient() ;
+    color:#cfdc5d;
+    background-image: url('../images/icons/sax.jpg');
+    padding-top: 3%;
+    min-height: 450px;
+    
+}
+
+.signUpPanel
+{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    position:relative;
+}
+
+.signUpTable
+{
+    width:55%;
+    margin:auto;
+    border:1px solid white;
+    padding:2%;
+    padding-top:.5%;
+    background-color:rgba(245,245,245,.2);
+    color:rgba(297,220,93,1);
+}
+
+    .signUpTable th
+    {
+        color:white;
+        font-weight:normal;
+        font-size:1.2em;
+        padding-bottom:1%;
+        border:1px solid gray;
+        margin-bottom:2%;
+    }
+
+    .signUpTable tfoot
+    {
+        text-align:center;
+        font-size:smaller;
+    }
+
+.tableColoredBox
+{
+    text-align:right;
+    background-color:#c9ebae;
+    color:#650707;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    width:35%;
+}
+
+.loginButtonArticle
+{
+    width:60%;
+    margin:auto;
+    vertical-align:middle;
+    padding-left:21%;
+    padding-bottom:2%;
+}
+
+    .loginButton
+    {
+        position:relative;
+        font-size:1.2em;
+        color:#650707;
+        background-color:whitesmoke;
+    }
+
+
+.publicSection
+{
+    width: 100%;
+    margin: auto;
+    background-image: repeating-linear-gradient() ;
+    color:#cfdc5d;
+    background-image: url('../images/icons/sax.jpg');
+    padding-top: 3%;
+    min-height: 800px;
+    
+}
+
+.publicFooter
+{
+    width:100%;
+    margin:auto;
+    background-color:#c9ebae;
+    min-height:50px;
+    color:#650707;
+    font-size:.8em;
+    text-align:center;
+    
+}
+
+.publicHeader
+{
+    background-color:#c9ebae;
+    color:#650707;
+    width:100%;
+    margin:auto;
+    font-size:3em;
+    font-weight:bold;
+    text-align:center;
+    padding-top:1%;
+}
+
+.adminSection
+{
+    width: 100%;
+    margin: auto;
+    background-color:#eedddd;
+    color:black;
+    padding-top: 3%;
+    min-height: 300px;
+    
+
+}
+
+.smallCenteredPanel
+{
+    width:25%;
+    margin:auto;
+    border:1px solid black;
+}
+
+.centeredTable
+{
+    width:30%;
+    margin:auto;
+    border:1px solid black;
+    background-color:white;
+    color:black;
+}
+
+    .centeredTableColorBox
+    {
+        width:55%;
+        background-color:#2B2B23;
+        color:#cfdc5d;
+    }
+
+    .centeredTable thead
+    {
+        color:#650707;
+        font-size:1.2em;
+        text-align:center;
+    }
+    
+    .centeredTable tfoot
+    {
+        color:#650707;
+        font-size:.8em;
+        text-align:center;
+    }
+
+.adminArticleHeader
+{
+    text-align:center;
+    font-size:1.2em;
+}
+
+.publicArticleHeader
+{
+    text-align:center;
+    color:#cfdc5d;
+    font-size:1.2em;
+}
+
+.article50
+{
+    width:46.5%;
+    margin:auto;
+    position:relative;
+    float:left;
+}
+
+.detailsTable
+{
+    width:96.5%;
+    margin:auto;
+    background-color:white;
+    color:black;
+}
+
+.detailsTableColorBox
+{
+    width:25%;
+    background-color:#2B2B23;
+    color:#cfdc5d;
+}
+
+.adRotator
+{
+    width:700px;
+    max-height:90px;
+    margin:auto;
+    display:block;
+}
+
+@media only screen and (max-width:1200px)
+{
+    .adRotator
+    {
+        width:60%;
+        margin:auto;
+    }
+
+    .publicHeader
+    {
+        font-size:2em;
+    }
+}
+
+.defaultTable
+{
+    width:86%;
+    margin:auto;
+    padding-bottom:2%;
+}
+
+.article100
+{
+    width:100%;
+    background-color:rgba(245,245,245,.2);
+    color:rgba(297,220,93,1);
+    border-radius:5%;
+}
+
+.article80
+{
+    width:78%;
+    margin:auto;
+    background-color:rgba(101,7,7,.2);
+    color:#cfdc5d;
+    color:rgba(297,220,93,1);
+}
+
+.coloredcolGv
+{
+    background-color:rgba(101,7,7,.5);
+    color:#cfdc5d;
+    border:1px solid white;
+    color:rgba(297,220,93,1);
+}
+
+.inPageLink
+{
+    text-decoration:none;
+    color: white;
+}
+
+    .inPageLink:hover
+    {
+        color:#cfdc5d;
+        font-weight:bold;
+        font-size:1.2em;
+    }
+
+.aboutSection
+{
+    width:40%;
+    margin:auto;
+    padding:5%;
+    background-color:white;
+    color:black;
+    border:1px solid white;
+    border-radius:15%;
+}
+
+.rentalLookUpTable
+{
+    width:45%;
+    margin:auto;
+    color:black;
+}
+
+.signInOut
+{
+    min-height:45px;
+}
+
+    .signInOut:hover
+    {
+        background-color:#666666;
+        min-height:45px;
+    }
+
+/*Button styles*/
+.rentMe
+{
+    border:1px solid black;
+    background-color:#2B2B23;
+    display:block;
+    text-align:center;
+}
+
+    .rentMe:hover
+    {
+        font-weight:bolder;
+        font-size:1.2em;
+        background-color:#650707;
+    }
+
+/*Gridview styles*/
+.gv100
+{
+    width:96%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.gv80
+{
+    width:78%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dvFull
+{
+    width:96%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*Image styles*/
+.img50
+{
+    width:50%;
+    margin:auto;
+}
+
+.img35
+{
+    width:35%;
+    margin:auto;
+    opacity:1.5;
+    display:block;
+    border:1px solid white;
+    border-radius:15%;
+}
+
+/*Dropdown List*/
+.ddlSearch
+{
+    width:15%;
+}
+
+/*Label*/
+.largeLabel
+{
+    font-size:2em;
+    color:#cfdc5d;
+    text-align:center;
+}
+
+.errorLabel
+{
+    color:palevioletred;
+    font-size:.8em;
+    width:100%
+}
