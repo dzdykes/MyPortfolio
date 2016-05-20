@@ -7,7 +7,7 @@ my time a Carroll County Commuinty College. Most them were developed using the E
 [Link to Java](https://github.com/dzdykes/MyPortfolio/tree/master/Java)
 
 ###Python
-These coding project are written in Python. There are both Python 2 and Python 3 examples.
+These coding projects are written in Python. There are both Python 2 and Python 3 examples.
 They were developed using IDLE and Visual Studio [Link to Python](https://github.com/dzdykes/MyPortfolio/tree/master/Python)
 
 ###C# and ASP.NET
