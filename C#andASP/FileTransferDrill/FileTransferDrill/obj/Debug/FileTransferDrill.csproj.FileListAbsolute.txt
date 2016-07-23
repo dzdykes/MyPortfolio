@@ -1,0 +1,12 @@
+C:\Users\Dylan\Desktop\TechAcademy\C#\FileTransferDrill\FileTransferDrill\bin\Debug\FileTransferDrill.exe.config
+C:\Users\Dylan\Desktop\TechAcademy\C#\FileTransferDrill\FileTransferDrill\bin\Debug\FileTransferDrill.exe
+C:\Users\Dylan\Desktop\TechAcademy\C#\FileTransferDrill\FileTransferDrill\bin\Debug\FileTransferDrill.pdb
+C:\Users\Dylan\Desktop\TechAcademy\C#\FileTransferDrill\FileTransferDrill\obj\Debug\FileTransferDrill.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Desktop\TechAcademy\C#\FileTransferDrill\FileTransferDrill\obj\Debug\FileTransferDrill.exe
+C:\Users\Dylan\Desktop\TechAcademy\C#\FileTransferDrill\FileTransferDrill\obj\Debug\FileTransferDrill.pdb
+C:\Users\Dylan\Desktop\TechAcademy\StudentWork\C#\FileTransferDrill\FileTransferDrill\bin\Debug\FileTransferDrill.exe.config
+C:\Users\Dylan\Desktop\TechAcademy\StudentWork\C#\FileTransferDrill\FileTransferDrill\obj\Debug\FileTransferDrill.exe
+C:\Users\Dylan\Desktop\TechAcademy\StudentWork\C#\FileTransferDrill\FileTransferDrill\obj\Debug\FileTransferDrill.pdb
+C:\Users\Dylan\Desktop\TechAcademy\StudentWork\C#\FileTransferDrill\FileTransferDrill\bin\Debug\FileTransferDrill.exe
+C:\Users\Dylan\Desktop\TechAcademy\StudentWork\C#\FileTransferDrill\FileTransferDrill\bin\Debug\FileTransferDrill.pdb
+C:\Users\Dylan\Desktop\TechAcademy\StudentWork\C#\FileTransferDrill\FileTransferDrill\obj\Debug\FileTransferDrill.csprojResolveAssemblyReference.cache
