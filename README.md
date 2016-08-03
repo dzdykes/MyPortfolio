@@ -15,7 +15,7 @@ These coding projects were developed using C# and the ASP.NET framework. They we
 [Link to C# and ASP.NET](https://github.com/dzdykes/MyPortfolio/tree/master/C%23andASP)
 
 ###HTML and CSS
-These projects are sample websites that were developed using HTML and CSS. There is some JavaScript
+These projects are sample websites that were developed using HTML and CSS. Also using JavaScript
 ASP.NET involved as well. I used Visual Studio to develop these projects. [Link to HTML and CSS](https://github.com/dzdykes/MyPortfolio/)
 
 [Return to Portfolio](https://github.com/dzdykes/MyPortfolio/)
